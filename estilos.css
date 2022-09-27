@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(125deg,
+    #FFFF00 , #CCEEFF ,#FF0000 , #610B5E , #2ECCFA);
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    #contenedor{
+    width: 400px;
+    height: 340;
+    padding:20px 30px;
+    background-color: #FFBF00;
+    border-radius: 0px;
+    box-shadow: 10px 5px 5px black;
+    border-top: 6px solid rosybrown;
+    }
+    #titulo{
+    color:maroon;
+    text-align: center;
+    border-bottom:2px solid #000000;
+    padding: 0 0 20px 0;
+    }
+    .cuadroText{
+    width: 95%;
+    height: 35px;
+    margin: 5px;
+    
+    border-radius:7px ;
+    border: 3px solid red;
+    }
+    
+    button{
+    width: 102%;
+    height: 35px;
+    border-radius:7px ;
+    color: #610B5E;
+    border: 2px solid mediumturquoise;
+    }
+    p{
+    text-align: center;
+    }
+    a{
+    color: blue;
+    text-decoration: none;
+    }
+    a:hover{
+    text-decoration: underline;
+    }
